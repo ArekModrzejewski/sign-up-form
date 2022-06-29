@@ -11,23 +11,41 @@
 </head>
 
 <body>
-    <h1>ODIN</h1>
-    <p>This is not a real online service! You know you need something like this in your life to help you realize your
-        deepest dreams. Sign up know to get started. <br><br>You know you want to.</p>
-    <form action="" method="post">
-        <label for="fname">First name</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email"><br><br>
-        <label for="pnumber">Phone number</label>
-        <input type="tel" id="pnumber" name="pnumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password"><br><br>
-        <label for="confirmpwd">Confirm password</label>
-        <input type="confirmpwd" id="confirmpwd" name="confirmpwd"><br><br>
-    </form>
+    <div class="left-side">
+        <div class="logo-container">
+            <img src="./img/odin-logo.png" alt="odin logo" class="logo">
+            <h1>ODIN</h1>
+
+        </div>
+        <p class="author">Photo by <a href="https://unsplash.com/@rodlong" rel="author">Rod Long</a></p>
+    </div>
+    <div class="right-side">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize
+            your
+            deepest dreams. Sign up know to get started. <br><br>You know you want to.</p><br>
+        <form action="" method="post">
+            <legend>Let's do this!</legend>
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname" required><br><br>
+
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" name="lname" required><br><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="pnumber">Phone number</label>
+            <input type="tel" id="pnumber" name="pnumber" pattern="[0-9]{9}" required><br><br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label for="confirmpwd">Confirm password</label>
+            <input type="password" id="confirmpwd" name="confirmpwd" required><br><br>
+
+            <button type="submit">Create Account</button>
+        </form>
+    </div>
 </body>
 
 </html>

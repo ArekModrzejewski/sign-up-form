@@ -46,3 +46,51 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body {
+	display: flex;
+}
+.left-side {
+	background-image: url("./img/rod-long-7Csefv0S--Q-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	max-width: 60vh;
+	min-width: min-content;
+}
+.logo-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
+	top: 30%;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.5);
+	font-size: 80px;
+	color: white;
+}
+.author {
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	bottom: 10px;
+	font-size: 20px;
+	left: 50%;
+}
+.author a:visited {
+	color: white;
+}
+.logo {
+	height: 90px;
+	width: auto;
+}
+.right-side {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
