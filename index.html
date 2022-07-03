@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="./style.css">
     <title>Sign-up now!</title>
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
@@ -17,33 +21,47 @@
             <h1>ODIN</h1>
 
         </div>
-        <p class="author">Photo by <a href="https://unsplash.com/@rodlong" rel="author">Rod Long</a></p>
+        <p class="author">Photo by <a href="https://unsplash.com/@hansott" rel="author" target="_blank">Hans Ott</a></p>
     </div>
     <div class="right-side">
         <p>This is not a real online service! You know you need something like this in your life to help you realize
             your
             deepest dreams. Sign up know to get started. <br><br>You know you want to.</p><br>
-        <form action="" method="post">
+        <form action="" method="post" class="sign-up-form">
             <legend>Let's do this!</legend>
-            <label for="fname">First name</label>
-            <input type="text" id="fname" name="fname" required><br><br>
 
-            <label for="lname">Last name</label>
-            <input type="text" id="lname" name="lname" required><br><br>
+            <div class="inputbox">
+                <label for="fname">First name</label><br>
+                <input type="text" id="fname" name="fname" required>
+            </div>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required><br><br>
+            <div class="inputbox">
+                <label for="lname">Last name</label><br>
+                <input type="text" id="lname" name="lname" required>
+            </div>
 
-            <label for="pnumber">Phone number</label>
-            <input type="tel" id="pnumber" name="pnumber" pattern="[0-9]{9}" required><br><br>
+            <div class="inputbox">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required>
+            </div>
 
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" required><br><br>
+            <div class="inputbox">
+                <label for="pnumber">Phone number</label><br>
+                <input type="tel" id="pnumber" name="pnumber" pattern="[0-9]{9}" required>
+            </div>
 
-            <label for="confirmpwd">Confirm password</label>
-            <input type="password" id="confirmpwd" name="confirmpwd" required><br><br>
+            <div class="inputbox">
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="inputbox">
+                <label for="confirmpwd">Confirm password</label><br>
+                <input type="password" id="confirmpwd" name="confirmpwd" required>
+            </div>
         </form>
         <button type="submit" class="submit">Create Account</button>
+        <p>Already have an account?<a>Log in</a></p>
     </div>
 </body>
 
