@@ -190,7 +190,7 @@ body {
 }
 
 .right-side {
-	background-color: aliceblue;
+	background-color: rgba(0, 0, 0, 0.02);
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -202,11 +202,13 @@ body {
 }
 
 .sign-up-form {
+	box-shadow: 0px 5px 10px lightgray;
 	display: flex;
 	flex-wrap: wrap;
 	background-color: white;
 }
 .inputbox {
 	font-family: monospace;
-	font-size: 16px;
+	font-size: 12px;
+	letter-spacing: 0.15rem;
 }
