@@ -149,7 +149,7 @@ body {
 	position: relative;
 	height: 100vh;
 	width: 100%;
-	max-width: 70vh;
+	max-width: 40vw;
 }
 
 .logo-container {
@@ -190,6 +190,7 @@ body {
 }
 
 .right-side {
+	padding-block: 60px;
 	background-color: rgba(0, 0, 0, 0.02);
 	height: 100vh;
 	display: flex;
@@ -198,7 +199,23 @@ body {
 
 .submit {
 	width: fit-content;
-	padding: 15px 30px;
+	padding: 12px 24px;
+	margin-left: 40px;
+	background-color: rgba(45, 88, 32, 0.87);
+	border-radius: 10px;
+	color: white;
+	font-family: 'Crimson Text', serif;
+	font-size: 22px;
+	font-weight: bold;
+	border: 0px;
+	border: 2px solid transparent;
+
+}
+.submit:hover {
+	background-color: white;
+	border: 2px solid rgba(45, 88, 32, 0.87);
+	color: rgba(45, 88, 32, 0.87);
+
 }
 
 .sign-up-form {
@@ -206,9 +223,20 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	background-color: white;
+	padding: 20px;
+	margin-block: 40px;
 }
 .inputbox {
-	font-family: monospace;
+	padding: 10px 20px;
+	font-family: 'Crimson Text', serif;
 	font-size: 12px;
 	letter-spacing: 0.15rem;
+}
+legend {
+	width: 100%;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.right-side p {
+	padding: 40px;
 }
