@@ -220,11 +220,9 @@ body {
 
 .sign-up-form {
 	box-shadow: 0px 5px 10px lightgray;
-	display: flex;
-	flex-wrap: wrap;
 	background-color: white;
 	padding: 20px;
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 }
 
 .inputbox {
@@ -232,8 +230,12 @@ body {
 	font-family: 'Crimson Text', serif;
 	font-size: 12px;
 	letter-spacing: 0.15rem;
+	flex: 1 1 250px;
+	max-width: 300px;
 }
-
+input {
+	width: 100%;
+}
 legend {
 	width: 100%;
 	padding-left: 20px;
@@ -242,6 +244,19 @@ legend {
 
 .right-side p {
 	padding: 60px 40px;
+}
+.boxes {
+	display: flex;
+	flex-wrap: wrap;
+}
+.login {
+	text-decoration: none;
+	font-weight: bold;
+	color: rgba(45, 88, 32, 0.87);
+
+}
+.login:visited {
+	color: rgba(45, 88, 32, 0.87);
 }
 
 @media screen and (max-width: 1000px),
