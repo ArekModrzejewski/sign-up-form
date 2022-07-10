@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -24,43 +24,42 @@
         <p class="author">Photo by <a href="https://unsplash.com/@hansott" rel="author" target="_blank">Hans Ott</a></p>
     </div>
     <div class="right-side">
-        <p>This is not a real online service! You know you need something like this in your life to help you realize
-            your
-            deepest dreams. Sign up know to get started. <br><br>You know you want to.</p><br>
-        <form action="" method="post" class="sign-up-form">
-            <legend>Let's do this!</legend>
-
-            <div class="inputbox">
-                <label for="fname">FIRST NAME</label><br>
-                <input type="text" id="fname" name="fname" required>
+        <p>This is not a real online service!
+            You know you need something like this in your life to help you realize
+            your deepest dreams.
+            <br>Sign up know to get started.
+            <br><br>You know you want to.
+        </p><br>
+        <form action="" method="post">
+            <div class="sign-up-form">
+                <legend>Let's do this!</legend>
+                <div class="inputbox">
+                    <label for="fname">FIRST NAME</label><br>
+                    <input type="text" id="fname" name="fname" required>
+                </div>
+                <div class="inputbox">
+                    <label for="lname">LAST NAME</label><br>
+                    <input type="text" id="lname" name="lname" required>
+                </div>
+                <div class="inputbox">
+                    <label for="email">EMAIL</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="inputbox">
+                    <label for="pnumber">PHONE NUMBER</label><br>
+                    <input type="tel" id="pnumber" name="pnumber" pattern="[0-9]{9}" required>
+                </div>
+                <div class="inputbox">
+                    <label for="password">PASSWORD</label><br>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="inputbox">
+                    <label for="confirmpwd">CONFIRM PASSWORD</label><br>
+                    <input type="password" id="confirmpwd" name="confirmpwd" required>
+                </div>
             </div>
-
-            <div class="inputbox">
-                <label for="lname">LAST NAME</label><br>
-                <input type="text" id="lname" name="lname" required>
-            </div>
-
-            <div class="inputbox">
-                <label for="email">EMAIL</label><br>
-                <input type="email" id="email" name="email" required>
-            </div>
-
-            <div class="inputbox">
-                <label for="pnumber">PHONE NUMBER</label><br>
-                <input type="tel" id="pnumber" name="pnumber" pattern="[0-9]{9}" required>
-            </div>
-
-            <div class="inputbox">
-                <label for="password">PASSWORD</label><br>
-                <input type="password" id="password" name="password" required>
-            </div>
-
-            <div class="inputbox">
-                <label for="confirmpwd">CONFIRM PASSWORD</label><br>
-                <input type="password" id="confirmpwd" name="confirmpwd" required>
-            </div>
+            <button type="submit" class="submit">Create Account</button>
         </form>
-        <button type="submit" class="submit">Create Account</button>
         <p>Already have an account?<a href="./index.html">Log in</a></p>
     </div>
 </body>
