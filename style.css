@@ -236,6 +236,11 @@ body {
 input {
 	width: 100%;
 }
+input:focus {
+	outline: solid;
+	outline-width: 1px;
+	outline-color: rgba(45, 88, 32, 0.87);
+}
 legend {
 	width: 100%;
 	padding-left: 20px;
